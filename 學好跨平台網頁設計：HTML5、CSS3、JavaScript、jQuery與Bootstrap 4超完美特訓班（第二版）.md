@@ -6,14 +6,14 @@
 
 ## https://www.books.com.tw/products/0010812394
 ## 書本資訊
-1.  作者： 鄧文淵, 文淵閣工作室  
-2.  出版社：碁峰  
-3.  出版日期：2019/01/28
-4.  語言：繁體中文
-5.  電子書價:302元
-6.  範例下載:http://books.gotop.com.tw/download/ACL055700
-7.  BLOG:http://blog.e-happy.com.tw/tag/%E7%A8%8B%E5%BC%8F%E7%89%B9%E8%A8%93%E7%8F%AD/
-8.  FB:https://www.facebook.com/eHappyTT
+1. 作者： 鄧文淵, 文淵閣工作室  
+2. 出版社：碁峰  
+3. 出版日期：2019/01/28
+4. 語言：繁體中文
+5. 電子書價:302元
+6. 範例下載:http://books.gotop.com.tw/download/ACL055700
+7. BLOG:http://blog.e-happy.com.tw/tag/%E7%A8%8B%E5%BC%8F%E7%89%B9%E8%A8%93%E7%8F%AD/
+8. FB:https://www.facebook.com/eHappyTT
 
 #### 01 HTML基礎入門
 HTML5除了簡化了HTML語法的結構，提供了許多功能標籤能夠直接控制音效、影片等多媒體檔案的播放，並且進一步加入控管地理位置的Geolocation API、繪圖的Canvas API、本地端的資料庫、離線的儲存機制 ⋯ 等讓人期待的功能，讓網頁的呈現與應用提升到另一個不同的層次。
@@ -25,13 +25,16 @@ HTML5除了簡化了HTML語法的結構，提供了許多功能標籤能夠直�
 #### 02 HTML結構與文字段落
 HTML是一個很重要的語法，它能整合文字、圖片、聲音、動畫、影片等內容，藉由瀏覽器讓資訊能夠無遠弗屆，深入到每個角落。在這裡先介紹HTML的文字段落與超連結等標籤，扎實打好HTML的基礎。
 1. HTML文件結構
-   + 容器元素 <h1>
+   + 容器元素 h1
    + 單一元素 href="xxx"
 2. 段落
    + p,br,h1,pre,blockquote,hr,
    + ol,ul,li
    + dl,dt,dd 
+   + div,span(不換行)
+   + <!--注釋-->
 3. 文字格式
+   
 4. HTML5的語意標籤
 
 #### 03 超連結、圖片、音效與影片
