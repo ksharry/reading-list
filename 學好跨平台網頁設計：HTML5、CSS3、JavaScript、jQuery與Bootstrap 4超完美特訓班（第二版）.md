@@ -11,11 +11,9 @@
 3.  出版日期：2019/01/28
 4.  語言：繁體中文
 5.  電子書價:302元
-
-#### 導言
-1.  寫給門外漢的心理學
-2.  心理學是精神生活的科學。
-3.  德國人-威廉，馮特-
+6.  範例下載:http://books.gotop.com.tw/download/ACL055700
+7.  BLOG:http://blog.e-happy.com.tw/tag/%E7%A8%8B%E5%BC%8F%E7%89%B9%E8%A8%93%E7%8F%AD/
+8.  FB:https://www.facebook.com/eHappyTT
 
 #### 01 HTML基礎入門
 HTML5除了簡化了HTML語法的結構，提供了許多功能標籤能夠直接控制音效、影片等多媒體檔案的播放，並且進一步加入控管地理位置的Geolocation API、繪圖的Canvas API、本地端的資料庫、離線的儲存機制 ⋯ 等讓人期待的功能，讓網頁的呈現與應用提升到另一個不同的層次。
