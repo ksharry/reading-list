@@ -77,11 +77,11 @@ HTML是一個很重要的語法，它能整合文字、圖片、聲音、動畫�
        <input type="radio" name="gender" value="male">男
        <input type="checkbox" name="interest" value="Jog">慢跑
        <select name="season">
-		<option name="spring">春天</option>
+           <option name="spring">春天</option>
        <select name="season" size="4" multiple>
        <textarea name="poem" rows="5" cols="20">
        <fieldset>
-		<legend>登入資訊</legend>
+           <legend>登入資訊</legend>
        <p>姓名：<input type="text" name="username" placeholder="請輸入姓名" required autofocus></p>
        <p>搜尋：<input type="search" name="search"></p>
        <p>信箱1：<input type="email" name="email"></p>
