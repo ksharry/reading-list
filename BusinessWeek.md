@@ -20,6 +20,10 @@
    + 不透過NFT，這目標無法達成嗎？
    + 能提供目標群眾哪些賦能與好處？
    + 要發多少數量？發行方式為何？
+8. 英文
+   + carbon-neutral　碳中和
+   + dioxide　二氧化物
+   + to take pride in　以⋯⋯自豪
 
 <table>
     <tr>
