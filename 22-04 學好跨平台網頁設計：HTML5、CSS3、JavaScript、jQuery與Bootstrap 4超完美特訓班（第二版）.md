@@ -109,7 +109,14 @@ CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地�
      + 使用link元素
      + 使用@import
 4. CSS基本語法
+   + 選擇器
+   + 宣告
+   + 瀏覽器的前綴詞
 5. CSS基本選擇器
+   + 全域選擇器 *
+   + 元素選擇器 h3
+   + Class選擇器 .class
+   + id選擇器 #id
 6. CSS屬性選擇器
 7. CSS虛擬類別選擇器
 8. CSS虛擬元素選擇器
