@@ -45,22 +45,22 @@ HTML是一個很重要的語法，它能整合文字、圖片、聲音、動畫�
     + 常用超連結
      > 
        <a href="http://www.e-happy.com.tw" target="_blank">文淵閣工作室</a>
-   + 頁內超連結 
-    > 
-      <a href="#ch01">前往Ch01</a> 
-      <h2 id="ch01">Ch01</h2> 
+    + 頁內超連結 
+     > 
+       <a href="#ch01">前往Ch01</a> 
+       <h2 id="ch01">Ch01</h2> 
 3. 圖片
-   + 圖片超連結,圖片說明figure/ficaption
-    > 
-      <img src="images/HTML5.png" width="128" height="128" alt="HTML5 Logo">
+    + 圖片超連結,圖片說明figure/ficaption
+     > 
+       <img src="images/HTML5.png" width="128" height="128" alt="HTML5 Logo">
 4. 音效的使用
-   + 音效超連結
-    > 
-      <source src="media/music.mp3" type="audio/mpeg">
+    + 音效超連結
+     > 
+       <source src="media/music.mp3" type="audio/mpeg">
 5. 影片的使用
-   + 影片超連結
-    > 
-      <source src="media/movie.mp4" type="video/mp4">
+    + 影片超連結
+     > 
+       <source src="media/movie.mp4" type="video/mp4">
 #### 04 表格與表單
 表格是網頁中資料展示的重要利器，本章將分析表格中各個部位，並說明相關的標籤與屬性。表單是網站與瀏覽者互動的窗口，不同的資料需要不同的表單元件來傳送。本章除了介紹HTML中原有的表單元件的建置方式，並會進一步說明HTML5新增的表單元件與使用方式。
 4.1 表格
