@@ -4,7 +4,7 @@
     </tr>
 </table>
 
-## 購買-個人筆記  https://www.books.com.tw/products/0010812394
+## 個人筆記  https://www.books.com.tw/products/0010812394
 ## 書本資訊:
 1. 作者： 鄧文淵, 文淵閣工作室  
 2. 出版社：碁峰  
