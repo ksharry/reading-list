@@ -71,11 +71,28 @@ HTML是一個很重要的語法，它能整合文字、圖片、聲音、動畫�
 2. 表單
     + 表單
      > 
-       <form>
-			<p>帳號：<input type="text" name="username"></p>
-			<p>密碼：<input type="password" name="passwd"></p>
-			<p><input type="submit" value="登入"> <input type="reset" value="重置"></p>
-		</form>
+	<p>帳號：<input type="text" name="username"></p>
+	<p>密碼：<input type="password" name="passwd"></p>
+	<p><input type="submit" value="登入"> <input type="reset" value="重置"></p>
+	<input type="radio" name="gender" value="male">男
+	<input type="checkbox" name="interest" value="Jog">慢跑
+	<select name="season">
+		<option name="spring">春天</option>
+	<select name="season" size="4" multiple>
+	<textarea name="poem" rows="5" cols="20">
+	<fieldset>
+		<legend>登入資訊</legend>
+	<p>姓名：<input type="text" name="username" placeholder="請輸入姓名" required autofocus></p>
+	<p>搜尋：<input type="search" name="search"></p>
+	<p>信箱1：<input type="email" name="email"></p>
+	<p>信箱2：<input type="text" name="email2" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+	<p>網址：<input type="url" name="url"></p>
+	<p>電話：<input type="tel" name="tel"></p>
+	<p>數字：<input type="number" name="number" min="1" max="21" step="3"></p>
+	<p>日期：<input type="date" name="date"></p>
+	<p>時間：<input type="time" name="time"></p>
+	<p>程度：<input type="range" name="range"></p>
+	<p>顏色：<input type="color" name="color"></p>
 #### 05 CSS基礎入門
 CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地位，HTML是將網頁進行結構化的製作，而CSS可以依照這個結構進行美化，提升網頁載入的速度，有系統的打造網站的風格。
 CSS選擇器是套用樣式的基本功夫，除了一般的套用之外，還能使用屬性選擇器、虛擬類別選擇器、虛擬元素選擇器及組合選擇器，讓樣式的套用更靈活。
