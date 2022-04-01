@@ -4,7 +4,7 @@
     </tr>
 </table>
 
-## 2022/04/01購買-個人筆記  https://www.books.com.tw/products/0010812394
+## 購買-個人筆記  https://www.books.com.tw/products/0010812394
 ## 書本資訊:
 1. 作者： 鄧文淵, 文淵閣工作室  
 2. 出版社：碁峰  
@@ -44,7 +44,8 @@ HTML是一個很重要的語法，它能整合文字、圖片、聲音、動畫�
 2. 超連結
     + href - target
     + 頁內超連結 
-     > <a href="#ch01">前往Ch01</a> 
+     > 
+       <a href="#ch01">前往Ch01</a> 
        <h2 id="ch01">Ch01</h2> 
     +  
 3. 圖片
