@@ -63,9 +63,19 @@ HTML是一個很重要的語法，它能整合文字、圖片、聲音、動畫�
        <source src="media/movie.mp4" type="video/mp4">
 #### 04 表格與表單
 表格是網頁中資料展示的重要利器，本章將分析表格中各個部位，並說明相關的標籤與屬性。表單是網站與瀏覽者互動的窗口，不同的資料需要不同的表單元件來傳送。本章除了介紹HTML中原有的表單元件的建置方式，並會進一步說明HTML5新增的表單元件與使用方式。
-4.1 表格
-4.2 表單
-
+1. 表格
+    + 表格
+     > 
+       <table border="1" width="80%" cellspacing="5" cellpadding="5">
+       <td colspan="2">A</td>
+2. 表單
+    + 表單
+     > 
+       <form>
+			<p>帳號：<input type="text" name="username"></p>
+			<p>密碼：<input type="password" name="passwd"></p>
+			<p><input type="submit" value="登入"> <input type="reset" value="重置"></p>
+		</form>
 #### 05 CSS基礎入門
 CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地位，HTML是將網頁進行結構化的製作，而CSS可以依照這個結構進行美化，提升網頁載入的速度，有系統的打造網站的風格。
 CSS選擇器是套用樣式的基本功夫，除了一般的套用之外，還能使用屬性選擇器、虛擬類別選擇器、虛擬元素選擇器及組合選擇器，讓樣式的套用更靈活。
