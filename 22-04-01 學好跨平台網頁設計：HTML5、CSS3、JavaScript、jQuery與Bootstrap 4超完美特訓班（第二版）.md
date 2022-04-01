@@ -43,8 +43,8 @@ HTML是一個很重要的語法，它能整合文字、圖片、聲音、動畫�
 1. 路徑的表示方法
 2. 超連結
    + 常用超連結
-   > 
-      <a href="http://www.e-happy.com.tw" target="_blank">文淵閣工作室</a>
+     > 
+       <a href="http://www.e-happy.com.tw" target="_blank">文淵閣工作室</a>
    + 頁內超連結 
     > 
       <a href="#ch01">前往Ch01</a> 
