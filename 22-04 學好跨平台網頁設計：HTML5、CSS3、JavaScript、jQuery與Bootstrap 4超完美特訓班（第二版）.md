@@ -118,16 +118,42 @@ CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地�
    + Class選擇器 .class
    + id選擇器 #id
 6. CSS屬性選擇器
+   + img[alt~="Logo"]
+   + a[href^="http://"]{
+   + img[src$=".png"]{
+   + a[href*="e-happy"]{
 7. CSS虛擬類別選擇器
+   + a:link
+   + a:hover
+   + a:visited
+   + a:active
+   + td:nth-child(1)
+   + tr:nth-child(2n+1)
+   + tr:first-child
+   + p::first-line
+   + p:nth-of-type(3)
+   + p:nth-child(3)
+   + p:nth-of-type(3)
 8. CSS虛擬元素選擇器
+   + p::first-line
+   + p::first-letter
+   + ul::before
+   + ul::after
 9. 組合選擇器
+   + 後代選擇器 ul li em {
+   + 子選擇器 ul>li>em {
 10. CSS選擇器的套用順序
+   + 後來勝過先前
+   + 全域>元素>class>id
+   + !important優先
 
 #### 06 顏色與文字設定
 網頁中顏色的使用相當重要，除了能提高閱讀的舒適度，善用顏色的搭配能讓頁面的表現更加分。文字是網頁中最基礎但也最重要的內容，使用CSS 能快速的定義文字大小，粗細、字型、顏色 ... 等樣式，讓文字的呈現不再一成不變。
-6.1 顏色的設定
-6.2 文字大小、字型及相關的樣式設定
-6.3 字型設定
+1. 顏色的設定
+   + 使用RGB
+           
+2. 文字大小、字型及相關的樣式設定
+3. 字型設定
 
 #### 07 段落與表列設定
 文字段落的樣式包括了行距、文字間距、對齊、縮排 ... 等，對於網頁資訊的呈現也相當重要。表列資料的呈現分為項目符號及編號，對於資料的表現十分重要。CSS 的設定能更完美的呈現表列資料。
