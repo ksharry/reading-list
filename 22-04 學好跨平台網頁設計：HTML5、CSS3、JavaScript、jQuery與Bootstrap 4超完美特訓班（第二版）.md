@@ -151,16 +151,44 @@ CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地�
 網頁中顏色的使用相當重要，除了能提高閱讀的舒適度，善用顏色的搭配能讓頁面的表現更加分。文字是網頁中最基礎但也最重要的內容，使用CSS 能快速的定義文字大小，粗細、字型、顏色 ... 等樣式，讓文字的呈現不再一成不變。
 1. 顏色的設定
    + 使用RGB
-           
+   + 使用RGBA
+   + 使用HSL
+   + 使用HSLA
+   + 使用顏色名稱設定
 2. 文字大小、字型及相關的樣式設定
+   + 文字大小
+     + 絕對數值,16px
+     + 相對數值,smaller,em,%
+   + 文字粗細,font-weight:bold/100-900
+   + 文字斜體,font-style:italic/oblique
+   + 文字變體:font-variant:small-caps
+   + 文字與背景顏色: color: black; background-color: white;
+   + 文字大小寫,text-transform: uppercase/capitalize
+   + 底線與刪除線text-decoration: underline/line-through/overline;
+   + 文字樣式快速設定:font: italic small-caps bold 1.5em/2em '標楷體'
 3. 字型設定
+   + 字型:font-family: "微軟正黑體";
+   + 加入GOOGLE字型:<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+   + 鑲入字形: @font-face {font-family: MyFont; src: url('GloriaHallelujah.ttf');}
 
 #### 07 段落與表列設定
 文字段落的樣式包括了行距、文字間距、對齊、縮排 ... 等，對於網頁資訊的呈現也相當重要。表列資料的呈現分為項目符號及編號，對於資料的表現十分重要。CSS 的設定能更完美的呈現表列資料。
-7.1 文字段落相關的樣式設定
-7.2 項目符號及編號的設定
-7.3 超連結的樣式設定
-7.4 CSS3：文字陰影
+1. 文字段落相關的樣式設定
+   + 行高:style="line-height: 1em";
+   + 文字間距:style="letter-spacing: 0.5em"
+   + 文字對齊:style="text-align: left"
+   + 垂直對齊:vertical-align: top
+   + 上下標文字:style="vertical-align: sub/super;
+   + 首行縮排:style="text-indent: 1em
+2. 項目符號及編號的設定
+   + 項目編號:list-style-type: circle/disc
+   + 圖片項目:list-style-image: url(like.png)
+   + 項目位置:list-style-position: outside
+   + 項目快速設定:list-style: square inside;
+3. 超連結的樣式設定
+4. CSS3：文字陰影
+   + 文字陰影:text-shadow: 1px 1px 3px
+   + 多重文字陰影:光暈/內嵌/浮凸/立體
 
 #### 08 背景與框線設計
 在網頁中可以為元素設定背景，可以凸顯前景的內容。設定的方式十分多元，可以使用顏色、圖片，並能設定背景圖片的位置，背景圖片重複的方式，以及透明度，甚至使用漸層顏色。框線與背景設定的條件十分相似，只要是區塊的標籤元素都能設定框線。除了顏色、粗細，還能設定顯示的樣式，設定圓角，加上陰影。
