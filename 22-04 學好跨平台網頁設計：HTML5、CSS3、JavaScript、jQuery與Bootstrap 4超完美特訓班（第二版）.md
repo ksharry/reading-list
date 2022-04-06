@@ -192,28 +192,69 @@ CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地�
 
 #### 08 背景與框線設計
 在網頁中可以為元素設定背景，可以凸顯前景的內容。設定的方式十分多元，可以使用顏色、圖片，並能設定背景圖片的位置，背景圖片重複的方式，以及透明度，甚至使用漸層顏色。框線與背景設定的條件十分相似，只要是區塊的標籤元素都能設定框線。除了顏色、粗細，還能設定顯示的樣式，設定圓角，加上陰影。
-8.1 設定背景顏色及圖片
-8.2 設定透明度
-8.3 設定漸層
-8.4 框線的設定
-8.5 表格框線
-8.6 CSS3：圓角框線
-8.7 CSS3：區塊陰影
-
+1. 設定背景顏色及圖片 
+   + background-color
+   + background-image: url(bg-1.png)
+   + style="background-image: url(bg-1.png);
+   + background-repeat: no-repeat;
+   + background-image: url(bg-1.png);background-repeat: no-repeat;background-position: top center;
+   + background-image: url(bg-1.png);background-repeat: no-repeat;background-position: right top;background-attachment: fixed;"
+2. 設定透明度
+   + .opacity1 { opacity: 0.25}
+3. 設定漸層
+   + .linear1 { background: linear-gradient(to bottom, yellow, green);}
+   + 重複性:background: repeating-linear-gradient(to right, yellow 30px, green 70px);
+   + 放射性:background: radial-gradient(circle, red, yellow, green);
+4. 框線的設定
+   + style="border: dotted 5px #FF0000;
+   + 上右下左:style="border-style: dotted solid dashed double; border-width: 1px 2px 3px 4px; border-color: black yellow red green;"
+5. 表格框線
+   + 框線重疊:border-collapse: collapse;
+6. CSS3：圓角框線
+   + style="border: solid 3px orange; border-radius: 20px;
+   + 兩角style="border: solid 3px orange; border-radius: 60px 0px; 
+7. CSS3：區塊陰影
+   + box-shadow: 10px 10px 5px 5px gray;
+           
 #### 09 盒子模型與版面定位
 在網頁的版面上可以說是一個個盒子所組成的，只要能熟悉盒子模型的結構，即可準確的規劃版面中每個區塊的尺寸以及與其他區塊之間的排列狀態。float屬性能將元素設置到所在容器的最左方或最右方成為浮動元素，跟在該元素後方的內容就接著流動到剩下來的位置中。position屬性能精確的定位區塊元素的位置，並依不同特性安排區塊元素的展示方法。CSS3的媒體查詢能根據不同媒體、不同的特性給予不同的CSS樣式設定。
-9.1 使用元素結構的重要觀念
-9.2 認識盒子模型
-9.3 float的使用
-9.4 position的使用
-9.5 媒體查詢
+1. 使用元素結構的重要觀念
+   + 元素的區別
+     + 區塊/行內
+   + 容器的觀念
+2. 認識盒子模型
+   + 關於盒子模型
+   + 內容顯示區域
+     + 限制高度與寬度:max-width: 500px;
+     + 溢出:overflow: hidden;
+     + padding: 0px;
+     + Div的邊界:margin: 5px;
+     + 行內情況:display: inline;
+     + 隱藏:visibility: hidden;
+3. float的使用
+   + float:float: left;
+   + clear: both;
+4. position的使用
+   + position: relative;
+   + position: absolute;
+   + position: fixed;
+5. 媒體查詢
+   + 畫面變小變黑色@media screen and (min-width: 300px) and (max-width: 600px){
+   + RWD:         @media screen and (min-width: 320px){
 
 #### 10 變形、轉換與動畫
 在CSS3中可以使用transform屬性來設定元素的變形效果，進行移動、縮放、旋轉、傾斜等變化。transition轉換效果是指元素由一種樣式轉換到另一種樣式的動作，可由播放時間、轉換屬性、轉換方法及延遲時間的屬性進行設定。animation動畫效果就是由播放的起點到終點設定多個關鍵影格，接著指定元素在每個關鍵影格中屬性有不同的變化所呈現的動畫。
-10.1 變形效果
-10.2 轉換效果
-10.3 動畫效果
-
+1. 變形效果
+   + transform: translate(20px, 10px)/rotate(45deg)/scale(1.5, 0.5)/skew(20deg, 30deg)
+   + 預設位置:transform-origin: 0% 0%;
+2. 轉換效果
+   + transition-duration: 1s;transition-property: width;transition-timing-function: ease;transition-delay: 0s;
+   + 綜合設定:transition: 1s width ease 0s;
+   + 分段執行:transition: 1s width, 1s background-color 1s;
+3. 動畫效果
+   + 變顏色@keyframes myanimation;animation-name: myanimation;animation-duration: 2s;animation-timing-function: ease;animation-delay: 1s;
+   + 變位置:animation-play-state: paused;
+   + 變顏色+位置
 #### 11 JavaScript語法與結構
 JavaScript是一種腳本(Script)式的程式語言，其原始碼在客戶端執行之前不需經過編譯，而是將文字格式的字元代碼發送給瀏覽器再由瀏覽器解譯執行。所以JavaScript在撰寫、測試到除錯都很容易，只要在編輯之後儲存，就能在瀏覽器觀看結果。JavaScript因為瀏覽器的支援而能夠輕鬆跨越不同平台而大行其道，並隨著新的JavaScript引擎及框架技術的發展，利用事件驅動與非同步寫入讀出等特性，JavaScript竟然也逐漸被應用到開發伺服器端程式。
 11.1 認識JavaScript
