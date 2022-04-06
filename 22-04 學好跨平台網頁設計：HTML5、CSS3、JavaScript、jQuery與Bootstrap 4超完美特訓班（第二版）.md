@@ -291,9 +291,22 @@ JavaScript是一種腳本(Script)式的程式語言，其原始碼在客戶端�
 
 #### 13 jQuery基礎入門
 jQuery是目前最多人使用、開發維護及延伸應用的JavaScript函式庫，除了可以簡化開發者的程式語法，也能幫助使用者獲得更好的互動經驗，為網頁程式設計者省下了大量的開發時間，也為使用者互動帶來了便利，更帶來許多讓人驚豔的強大功能！
-13.1 認識jQuery
-13.2 jQuery選擇器
-
+1. 認識jQuery
+   + JQuery的基本架構
+     > 
+       <meta charset="UTF-8">
+       <title>範例</title>
+       <script src="http://code.jquery.com/jquery-3.2.0.min.js"></script>
+       <script>
+         $(document).ready(function(){
+             alert("Hello, jQuery!");
+       })
+       </script>
+           + 邏輯運算
+2. jQuery選擇器
+   + 加減乘除
+   + 邏輯運算
+           
 #### 14 jQuery的事件與特效
 jQuery可以使用選擇器輕易的選取頁面上的內容，包含了CSS與DOM裡的結構，在選取後就能根據事件來進行互動，或是加上特效。jQuery的事件處理是互動程式很重要的一環，許多程式的執行必須依靠事件來觸發才能夠進行。jQuery提供了許多設定簡單，但效果驚人的特效。只要善用這些功能，就能讓您的頁面更加吸引人。
 14.1 jQuery與CSS、DOM的處理
