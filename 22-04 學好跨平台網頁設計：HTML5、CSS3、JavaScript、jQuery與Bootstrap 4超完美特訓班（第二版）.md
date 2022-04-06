@@ -275,10 +275,19 @@ JavaScript是一種腳本(Script)式的程式語言，其原始碼在客戶端�
 
 #### 12 JavaScript函式、陣列與物件
 函式即是將程式碼中重複使用的部分單獨出來，在應用時只要呼叫即可使用，提高程式開發的效率。陣列可說是一群性質相同變數的集合，能大量降低變數宣告的數量，提高程式開發時的彈性。物件可以說是屬性與方法的組合，每個物件上都有它的特徵與功能，化為程式的屬性與方法。
-12.1 函式的使用
-12.2 陣列的使用
-12.3 物件
-12.4 Javascript與DOM
+1. 函式的使用
+   + 函式的使用function myInformation(){
+   + 函式的參數function showName(myName){
+   + 函式的傳回值return dc * 1.8 + 32;
+2. 陣列的使用
+   + 建立一維陣列var student = ["David","Lily","Perry"];
+   + 多維陣列document.write("<td>" + student[i][j] + "</td>");
+3. 物件
+   + 自訂物件function Person(name, age, weight, height){
+4. Javascript與DOM
+   + 認識DOM
+   + 利用JS存取元素節點var findUrl = document.getElementById("myHomePage");alert(findUrl.innerHTML + " 的網址是 \n" +findUrl.href);
+   + 取得圖片ALT var findImg = document.getElementsByTagName("img");        
 
 #### 13 jQuery基礎入門
 jQuery是目前最多人使用、開發維護及延伸應用的JavaScript函式庫，除了可以簡化開發者的程式語法，也能幫助使用者獲得更好的互動經驗，為網頁程式設計者省下了大量的開發時間，也為使用者互動帶來了便利，更帶來許多讓人驚豔的強大功能！
