@@ -302,7 +302,7 @@ jQuery是目前最多人使用、開發維護及延伸應用的JavaScript函式�
              alert("Hello, jQuery!");
        })
        </script>
-           + 邏輯運算
+    + 邏輯運算
 2. jQuery選擇器
    + 加減乘除
    + 邏輯運算
