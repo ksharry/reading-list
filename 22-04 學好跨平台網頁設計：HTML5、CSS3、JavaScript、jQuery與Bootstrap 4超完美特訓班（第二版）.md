@@ -350,44 +350,44 @@ jQuery Mobile提供了許多常用元件，讓行動裝置的畫面與一般原�
 
 #### 17 jQuery Mobile互動
 使用jQuery Mobile與使用者互動，就必須使用表單、事件與方法。jQuery Mobile表單能提供使用者輸入的資料介面，並檢視資料的正確性，再送到指定的程式進行處理。jQuery Mobile提供了頁面、觸控、捲動及方向切換等事件，幫助使用者與頁面的內容進行互動。jQuery Mobile提供了頁面切換及預載頁面的方法，幫助使用者在頁面之間切換並傳遞資料，或是以預載的方式增進頁面顯示效能。
-1 jQueryMobile表單:
-  + 表格<input type="password" name="inputPass" id="inputPass"/>
-  + 拉桿:<input type="range" name="slider-fill" id="slider-fill" value="60" min="0" max="1000" step="50" data-highlight="true">
-  + 開關:<select name="slider" id="slider" data-role="slider">
-  + 單選:<input type="checkbox" name="checkbox-1" id="checkbox-1" checked="">
-  + 下拉:<select name="selectmenu" id="selectmenu">
-  + 取值:var msg = '文字欄位：'+$("#iText").val()+"\n";
-2 jQueryMobile事件
-  + 頁面事件:$(document).on("pagecreate" , function(e){
-  + 滑鼠事件:$(document).on("tap" , function(e){
-  + 滾輪事件:$(document).on("scrollstart" , function(e){
-  + 螢幕方向:$(window).on("orientationchange" , function(e){
-  + 頁面預設:$.mobile.pageLoadErrorMessage = "喔，頁面無法載入喔!";
-3 jQueryMobile方法
-  + 頁面切換:$.mobile.changePage("#page2", {transition:"slidedown"});
-  + 頁面傳送:$.mobile.changePage("fun_cp_get.php", {
-  + 載入外部:$.mobile.loadPage("fun_loadpage2.htm");
+1. jQueryMobile表單:
+   + 表格<input type="password" name="inputPass" id="inputPass"/>
+   + 拉桿:<input type="range" name="slider-fill" id="slider-fill" value="60" min="0" max="1000" step="50" data-highlight="true">
+   + 開關:<select name="slider" id="slider" data-role="slider">
+   + 單選:<input type="checkbox" name="checkbox-1" id="checkbox-1" checked="">
+   + 下拉:<select name="selectmenu" id="selectmenu">
+   + 取值:var msg = '文字欄位：'+$("#iText").val()+"\n";
+2. jQueryMobile事件
+   + 頁面事件:$(document).on("pagecreate" , function(e){
+   + 滑鼠事件:$(document).on("tap" , function(e){
+   + 滾輪事件:$(document).on("scrollstart" , function(e){
+   + 螢幕方向:$(window).on("orientationchange" , function(e){
+   + 頁面預設:$.mobile.pageLoadErrorMessage = "喔，頁面無法載入喔!";
+3. jQueryMobile方法
+   + 頁面切換:$.mobile.changePage("#page2", {transition:"slidedown"});
+   + 頁面傳送:$.mobile.changePage("fun_cp_get.php", {
+   + 載入外部:$.mobile.loadPage("fun_loadpage2.htm");
              
 #### 18 Bootstrap入門
 Bootstrap是開發響應式網站的重要框架，以行動優先為設計方針，利用格線系統的觀念，擴充開發相關的CSS設定、元件應用與JavaScript 函式庫，讓它成為接軌現代網頁開發的重要技術之一。隨著原始碼的公開，優異的本質吸引許多開發者加入研發與維護，龐大的使用者為這個專案帶來了豐富的資源。學習者輕易就能在網路上查詢到相關的教學、技術與範例，獲得充足的幫助與支援。
-1 認識Bootstrap
-2 Bootstrap的安裝與使用
-  + 載入css:<link rel="stylesheet" href="css/bootstrap.min.css">
-  + 載入bs:<script src="js/jquery-3.3.1.min.js">src="js/popper.min.js">src="js/bootstrap.min.js"</script>
-3 Bootstrap的格線系統
-  + bs的系統
-    + 960格線系統
-    + Blueprint
-    + Golden Grid System
-  + .col-螢幕大小類型-col比例:<div class="col-12 col-sm-12 col-md-4">3/3</div>
-  + flexbox:<div class="row justify-content-start">
-  + 垂直對齊:<div class="row align-items-start">
-  + 整題對其:<div class="col align-self-center">
-4 Bootstrap的文字段落
-  + 標題、段落與文字
-  + 對齊轉換類別
-  + 清單
-  + 程式碼區塊
+1. 認識Bootstrap
+2. Bootstrap的安裝與使用
+   + 載入css:<link rel="stylesheet" href="css/bootstrap.min.css">
+   + 載入bs:<script src="js/jquery-3.3.1.min.js">src="js/popper.min.js">src="js/bootstrap.min.js"</script>
+3. Bootstrap的格線系統
+   + bs的系統
+     + 960格線系統
+     + Blueprint
+     + Golden Grid System
+   + .col-螢幕大小類型-col比例:<div class="col-12 col-sm-12 col-md-4">3/3</div>
+   + flexbox:<div class="row justify-content-start">
+   + 垂直對齊:<div class="row align-items-start">
+   + 整題對其:<div class="col align-self-center">
+4. Bootstrap的文字段落
+   + 標題、段落與文字
+   + 對齊轉換類別
+   + 清單
+   + 程式碼區塊
 
 #### 19 表格、表單、按鈕與圖片
 Bootstrap針對網頁中的表格、表單、按鈕與圖片，設計了計多相關的CSS樣式，在套用後不僅美觀，風格一致，有許多設定還能讓套用的元件在響應式的網站中獲得更好的呈現。
