@@ -320,28 +320,74 @@ jQuery可以使用選擇器輕易的選取頁面上的內容，包含了CSS與DO
 
 #### 15 jQuery Mobile入門
 jQuery Mobile是一個行動裝置網頁介面的開發框架，不同於傳統網頁，它提供了許多工具讓您可以開發出如同行動裝置 App 應用程式的使用畫面。例如頁面的切換、智慧型手機的操作介面、觸控操作的使用... 等。jQuery Mobile的基底技術是jQuery，它能讓網頁的HTML標籤，藉由JavaScript、CSS的幫助呈現出如行動裝置一樣的頁面。
+1. jQuery Mobile
+   + 引入:<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   + viewport與data-role
+     + viewport meta標籤，MOBILE使用
+     + data-role 自訂資料屬性
+   + 固定位置:<div data-role="header" data-position="fixed">
+   + 切換佈景主題:<div data-role="page" id="page3" data-theme="c">
+2. jQuery Mobile 超連結方式
+   + 單黨多頁:<div data-role="header" data-add-back-btn="true">
+   + 頁面切換特效:<p><a href="#page2" data-transition="fade">Fade</a></p>
 
 #### 16 jQuery Mobile常用元件
 jQuery Mobile提供了許多常用元件，讓行動裝置的畫面與一般原生程式的操作更接近。其中包含了按鈕、群組按鈕、導覽列、檢視清單、版面格點、可摺疊內容區塊、可摺疊內容區塊組、對話方塊及側邊欄面板。只要能善用這些元件，即可快速製作出精美而實用的使用介面。
-16.1 按鈕、按鈕群組與導覽元件
-16.2 清單元件
-16.3 版面格點元件
-16.4 版面格點元件
-16.5 對話方塊元件
-16.6 側邊欄面板元件
+1. 按鈕、按鈕群組與導覽元件
+   + 按鈕:<a href="#" data-role="button">按鈕一</a>
+   + 圖式:<a href="#" data-role="button" data-icon="action">action</a>
+   + 位置:<a href="#" data-role="button" data-icon="star" data-iconpos="top">上方圖示</a>
+   + 新增:<a href="#" data-role="button" data-icon="plus">新增</a>
+2. 清單元件
+   + 清單篩選:<ul data-role="listview" data-inset="true" data-filter="true">
+   + 清單分組:<li data-role="list-divider">A</li>
+   + 氣泡計數:<li><a href="#">Acura <span class="ui-li-count">12</span></a></li>
+   + 加入縮圖:<img src="images/phoebe.jpg">
+3. 版面格點元件,區塊:<class="u1-block-a">
+4. 版面格點元件,摺疊:<div data-role="collapsible" data-collapsed="true">
+5. 對話方塊元件,對話框:<a href="#page1" data-role="button" data-rel="dialog">訊息視窗1</a>
+6. 側邊欄面板元件:<div id="panelOverlay" data-role="panel" data-position="left" data-display="overlay" data-dismissible="false">
 
 #### 17 jQuery Mobile互動
 使用jQuery Mobile與使用者互動，就必須使用表單、事件與方法。jQuery Mobile表單能提供使用者輸入的資料介面，並檢視資料的正確性，再送到指定的程式進行處理。jQuery Mobile提供了頁面、觸控、捲動及方向切換等事件，幫助使用者與頁面的內容進行互動。jQuery Mobile提供了頁面切換及預載頁面的方法，幫助使用者在頁面之間切換並傳遞資料，或是以預載的方式增進頁面顯示效能。
-17.1 jQueryMobile表單
-17.2 jQueryMobile事件
-17.3 jQueryMobile方法
-
+1 jQueryMobile表單:
+  + 表格<input type="password" name="inputPass" id="inputPass"/>
+  + 拉桿:<input type="range" name="slider-fill" id="slider-fill" value="60" min="0" max="1000" step="50" data-highlight="true">
+  + 開關:<select name="slider" id="slider" data-role="slider">
+  + 單選:<input type="checkbox" name="checkbox-1" id="checkbox-1" checked="">
+  + 下拉:<select name="selectmenu" id="selectmenu">
+  + 取值:var msg = '文字欄位：'+$("#iText").val()+"\n";
+2 jQueryMobile事件
+  + 頁面事件:$(document).on("pagecreate" , function(e){
+  + 滑鼠事件:$(document).on("tap" , function(e){
+  + 滾輪事件:$(document).on("scrollstart" , function(e){
+  + 螢幕方向:$(window).on("orientationchange" , function(e){
+  + 頁面預設:$.mobile.pageLoadErrorMessage = "喔，頁面無法載入喔!";
+3 jQueryMobile方法
+  + 頁面切換:$.mobile.changePage("#page2", {transition:"slidedown"});
+  + 頁面傳送:$.mobile.changePage("fun_cp_get.php", {
+  + 載入外部:$.mobile.loadPage("fun_loadpage2.htm");
+             
 #### 18 Bootstrap入門
 Bootstrap是開發響應式網站的重要框架，以行動優先為設計方針，利用格線系統的觀念，擴充開發相關的CSS設定、元件應用與JavaScript 函式庫，讓它成為接軌現代網頁開發的重要技術之一。隨著原始碼的公開，優異的本質吸引許多開發者加入研發與維護，龐大的使用者為這個專案帶來了豐富的資源。學習者輕易就能在網路上查詢到相關的教學、技術與範例，獲得充足的幫助與支援。
-18.1 認識Bootstrap
-18.2 Bootstrap的安裝與使用
-18.3 Bootstrap的格線系統
-18.4 Bootstrap的文字段落
+1 認識Bootstrap
+2 Bootstrap的安裝與使用
+  + 載入css:<link rel="stylesheet" href="css/bootstrap.min.css">
+  + 載入bs:<script src="js/jquery-3.3.1.min.js">src="js/popper.min.js">src="js/bootstrap.min.js"</script>
+3 Bootstrap的格線系統
+  + bs的系統
+    + 960格線系統
+    + Blueprint
+    + Golden Grid System
+  + .col-螢幕大小類型-col比例:<div class="col-12 col-sm-12 col-md-4">3/3</div>
+  + flexbox:<div class="row justify-content-start">
+  + 垂直對齊:<div class="row align-items-start">
+  + 整題對其:<div class="col align-self-center">
+4 Bootstrap的文字段落
+  + 標題、段落與文字
+  + 對齊轉換類別
+  + 清單
+  + 程式碼區塊
 
 #### 19 表格、表單、按鈕與圖片
 Bootstrap針對網頁中的表格、表單、按鈕與圖片，設計了計多相關的CSS樣式，在套用後不僅美觀，風格一致，有許多設定還能讓套用的元件在響應式的網站中獲得更好的呈現。
