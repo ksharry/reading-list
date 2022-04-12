@@ -331,8 +331,8 @@ jQuery Mobile是一個行動裝置網頁介面的開發框架，不同於傳統�
    + 固定位置:<div data-role="header" data-position="fixed">
    + 切換佈景主題:<div data-role="page" id="page3" data-theme="c">
 2. jQuery Mobile 超連結方式
-   + 單黨多頁:<div data-role="header" data-add-back-btn="true">
-   + 頁面切換特效:<p><a href="#page2" data-transition="fade">Fade</a></p>
+   + 單黨多頁:<code><div data-role="header" data-add-back-btn="true"></code>
+   + 頁面切換特效:<code><p><a href="#page2" data-transition="fade">Fade</a></p></code>
 
 #### 16 jQuery Mobile常用元件
 jQuery Mobile提供了許多常用元件，讓行動裝置的畫面與一般原生程式的操作更接近。其中包含了按鈕、群組按鈕、導覽列、檢視清單、版面格點、可摺疊內容區塊、可摺疊內容區塊組、對話方塊及側邊欄面板。只要能善用這些元件，即可快速製作出精美而實用的使用介面。
