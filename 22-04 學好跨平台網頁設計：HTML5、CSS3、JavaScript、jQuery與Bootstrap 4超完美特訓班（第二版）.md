@@ -311,8 +311,8 @@ jQuery是目前最多人使用、開發維護及延伸應用的JavaScript函式�
 #### 14 jQuery的事件與特效
 jQuery可以使用選擇器輕易的選取頁面上的內容，包含了CSS與DOM裡的結構，在選取後就能根據事件來進行互動，或是加上特效。jQuery的事件處理是互動程式很重要的一環，許多程式的執行必須依靠事件來觸發才能夠進行。jQuery提供了許多設定簡單，但效果驚人的特效。只要善用這些功能，就能讓您的頁面更加吸引人。
 1. jQuery與CSS、DOM的處理
-   + JQuery與CSS互動 <code>$('#box2').css/toggle('width', $('#box1').css('width'));</code>
-   + JQuery與DOM互動 
+    + JQuery與CSS互動 <code>$('#box2').css/toggle('width', $('#box1').css('width'));</code>
+    + JQuery與DOM互動 
      > 
        $('#box1').html/text('<>這是有HTML的文字</h3>');
        $('#sList').before('<>本書重點技術</h1>');
