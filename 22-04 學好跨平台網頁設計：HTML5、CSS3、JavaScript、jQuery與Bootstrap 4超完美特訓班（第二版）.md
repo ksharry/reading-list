@@ -314,8 +314,8 @@ jQuery可以使用選擇器輕易的選取頁面上的內容，包含了CSS與DO
    + JQuery與CSS互動 <code>$('#box2').css/toggle('width', $('#box1').css('width'));</code>
    + JQuery與DOM互動 
      > 
-       $('#box1').html/text('<h3>這是有HTML的文字</h3>');
-       $('#sList').before('<h1>本書重點技術</h1>');
+       $('#box1').html/text('<>這是有HTML的文字</h3>');
+       $('#sList').before('<>本書重點技術</h1>');
 2. jQuery的事件
    + 事件的處裡:<code>$('#btn1').click(function(){;$('#btn1').bind('click',sayOK);if (event.target.id == 'btn2'){</code>
 3. jQuery的特效
