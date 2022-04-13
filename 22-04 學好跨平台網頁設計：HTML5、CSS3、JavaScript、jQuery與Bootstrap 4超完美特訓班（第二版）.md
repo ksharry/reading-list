@@ -375,17 +375,17 @@ jQuery Mobile提供了許多常用元件，讓行動裝置的畫面與一般原�
 Bootstrap是開發響應式網站的重要框架，以行動優先為設計方針，利用格線系統的觀念，擴充開發相關的CSS設定、元件應用與JavaScript 函式庫，讓它成為接軌現代網頁開發的重要技術之一。隨著原始碼的公開，優異的本質吸引許多開發者加入研發與維護，龐大的使用者為這個專案帶來了豐富的資源。學習者輕易就能在網路上查詢到相關的教學、技術與範例，獲得充足的幫助與支援。
 1. 認識Bootstrap
 2. Bootstrap的安裝與使用
-   + 載入css:<link rel="stylesheet" href="css/bootstrap.min.css">
-   + 載入bs:<script src="js/jquery-3.3.1.min.js">src="js/popper.min.js">src="js/bootstrap.min.js"</script>
+   + 載入css:link rel="stylesheet" href="css/bootstrap.min.css">
+   + 載入bs:script src="js/jquery-3.3.1.min.js">src="js/popper.min.js">src="js/bootstrap.min.js"</script>
 3. Bootstrap的格線系統
    + bs的系統
      + 960格線系統
      + Blueprint
      + Golden Grid System
-   + .col-螢幕大小類型-col比例:<div class="col-12 col-sm-12 col-md-4">3/3</div>
-   + flexbox:<div class="row justify-content-start">
-   + 垂直對齊:<div class="row align-items-start">
-   + 整題對其:<div class="col align-self-center">
+   + .col-螢幕大小類型-col比例:div class="col-12 col-sm-12 col-md-4">3/3</div>
+   + flexbox:div class="row justify-content-start">
+   + 垂直對齊:div class="row align-items-start">
+   + 整題對其:div class="col align-self-center">
 4. Bootstrap的文字段落
    + 標題、段落與文字
    + 對齊轉換類別
