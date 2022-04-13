@@ -344,7 +344,7 @@ jQuery Mobile提供了許多常用元件，讓行動裝置的畫面與一般原�
 2. 清單元件
    + 清單篩選:ul data-role="listview" data-inset="true" data-filter="true">
    + 清單分組:li data-role="list-divider">A</li>
-   + 氣泡計數:li><a href="#">Acura <span class="ui-li-count">12</span></a></li>
+   + 氣泡計數:a href="#">Acura span class="ui-li-count">12</span></a
    + 加入縮圖:img src="images/phoebe.jpg">
 3. 版面格點元件,區塊:class="u1-block-a">
 4. 版面格點元件,摺疊:div data-role="collapsible" data-collapsed="true">
@@ -354,11 +354,11 @@ jQuery Mobile提供了許多常用元件，讓行動裝置的畫面與一般原�
 #### 17 jQuery Mobile互動
 使用jQuery Mobile與使用者互動，就必須使用表單、事件與方法。jQuery Mobile表單能提供使用者輸入的資料介面，並檢視資料的正確性，再送到指定的程式進行處理。jQuery Mobile提供了頁面、觸控、捲動及方向切換等事件，幫助使用者與頁面的內容進行互動。jQuery Mobile提供了頁面切換及預載頁面的方法，幫助使用者在頁面之間切換並傳遞資料，或是以預載的方式增進頁面顯示效能。
 1. jQueryMobile表單:
-   + 表格<input type="password" name="inputPass" id="inputPass"/>
-   + 拉桿:<input type="range" name="slider-fill" id="slider-fill" value="60" min="0" max="1000" step="50" data-highlight="true">
-   + 開關:<select name="slider" id="slider" data-role="slider">
-   + 單選:<input type="checkbox" name="checkbox-1" id="checkbox-1" checked="">
-   + 下拉:<select name="selectmenu" id="selectmenu">
+   + 表格input type="password" name="inputPass" id="inputPass"/>
+   + 拉桿:input type="range" name="slider-fill" id="slider-fill" value="60" min="0" max="1000" step="50" data-highlight="true">
+   + 開關:select name="slider" id="slider" data-role="slider">
+   + 單選:input type="checkbox" name="checkbox-1" id="checkbox-1" checked="">
+   + 下拉:select name="selectmenu" id="selectmenu">
    + 取值:var msg = '文字欄位：'+$("#iText").val()+"\n";
 2. jQueryMobile事件
    + 頁面事件:$(document).on("pagecreate" , function(e){
