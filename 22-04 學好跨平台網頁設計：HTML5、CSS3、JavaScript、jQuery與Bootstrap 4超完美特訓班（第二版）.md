@@ -395,12 +395,24 @@ Bootstrap是開發響應式網站的重要框架，以行動優先為設計方�
 
 #### 19 表格、表單、按鈕與圖片
 Bootstrap針對網頁中的表格、表單、按鈕與圖片，設計了計多相關的CSS樣式，在套用後不僅美觀，風格一致，有許多設定還能讓套用的元件在響應式的網站中獲得更好的呈現。
-1 Bootstrap的表格
-2 Bootstrap的表單佈局
-3 Bootstrap的表單元素
-4 Bootstrap表單狀態樣式
-5 Bootstrap的按鈕
-6 Bootstrap的圖片
+1. Bootstrap的表格
+   + table class="table">/class="table table-dark"
+   + 隔行:class="table table-striped
+   + 邊緣:class="table table-bordered"
+   + 縮小:class="table table-sm"
+   + 滑過:class="table table-hover"
+   + 響應:table-responsive
+2. Bootstrap的表單佈局
+   + class="form-group"
+   + 行內:class="form-inline"
+3. Bootstrap的表單元素
+   + 輸入:input,textarea,radio,checkbox
+4. Bootstrap表單狀態樣式
+5. Bootstrap的按鈕
+   + button type="button" class="btn btn-default">Default</button
+   + 大按鈕:class="btn btn-primary btn-lg,全畫面:btn btn-primary btn-lg btn-block
+   + 
+6. Bootstrap的圖片
 
 #### 20 Bootsrtap元件
 Bootstrap提供了許多實用又美觀的元件，例如下拉式選單、按鈕、輸入群組、導覽標示、導覽列及其他導覽元件、警告訊息、進度條、清單群組及卡片，讓使用者可以快速加入在頁面上，為網站增添許多功能。
