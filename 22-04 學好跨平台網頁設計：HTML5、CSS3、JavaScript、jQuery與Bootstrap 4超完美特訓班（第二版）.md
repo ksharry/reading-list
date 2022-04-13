@@ -186,6 +186,7 @@ CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地�
    + 圖片項目:list-style-image: url(like.png)
    + 項目位置:list-style-position: outside
    + 項目快速設定:list-style: square inside;
+           
 ![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.7.2.1.png?raw=true)
 3. 超連結的樣式設定
 4. CSS3：文字陰影
@@ -233,6 +234,8 @@ CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地�
      + Div的邊界:margin: 5px;
      + 行內情況:display: inline;
      + 隱藏:visibility: hidden;
+
+![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.9.2.1.png?raw=true)
 3. float的使用
    + float:float: left;
    + clear: both;
@@ -249,6 +252,8 @@ CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地�
 1. 變形效果
    + transform: translate(20px, 10px)/rotate(45deg)/scale(1.5, 0.5)/skew(20deg, 30deg)
    + 預設位置:transform-origin: 0% 0%;
+
+![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.10.1.1.png?raw=true)
 2. 轉換效果
    + transition-duration: 1s;transition-property: width;transition-timing-function: ease;transition-delay: 0s;
    + 綜合設定:transition: 1s width ease 0s;
@@ -318,8 +323,12 @@ jQuery可以使用選擇器輕易的選取頁面上的內容，包含了CSS與DO
      > 
        $('#box1').html/text('<>這是有HTML的文字</h3>');
        $('#sList').before('<>本書重點技術</h1>');
+
+![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.14.1.1.png?raw=true)
 2. jQuery的事件
    + 事件的處裡:<code>$('#btn1').click(function(){;$('#btn1').bind('click',sayOK);if (event.target.id == 'btn2'){</code>
+
+![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.14.1.2.png?raw=true)
 3. jQuery的特效
    + JQuery特效:<code>$('#box').show/hide/toggle/slideDown/fadeOut/fadeOTO(500)</code>
 
@@ -388,11 +397,19 @@ Bootstrap是開發響應式網站的重要框架，以行動優先為設計方�
    + flexbox:div class="row justify-content-start">
    + 垂直對齊:div class="row align-items-start">
    + 整題對其:div class="col align-self-center">
+
+![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.18.3.1.png?raw=true)
+
+![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.18.3.3.png?raw=true)
+
+![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.18.3.4.png?raw=true)
 4. Bootstrap的文字段落
    + 標題、段落與文字
    + 對齊轉換類別
    + 清單
    + 程式碼區塊
+
+![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.18.4.2.png?raw=true)
 
 #### 19 表格、表單、按鈕與圖片
 Bootstrap針對網頁中的表格、表單、按鈕與圖片，設計了計多相關的CSS樣式，在套用後不僅美觀，風格一致，有許多設定還能讓套用的元件在響應式的網站中獲得更好的呈現。
@@ -403,6 +420,8 @@ Bootstrap針對網頁中的表格、表單、按鈕與圖片，設計了計多�
    + 縮小:class="table table-sm"
    + 滑過:class="table table-hover"
    + 響應:table-responsive
+
+![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.19.1.6.png?raw=true)
 2. Bootstrap的表單佈局
    + class="form-group"
    + 行內:class="form-inline"
@@ -413,6 +432,8 @@ Bootstrap針對網頁中的表格、表單、按鈕與圖片，設計了計多�
    + button type="button" class="btn btn-default">Default</button
    + 大按鈕:class="btn btn-primary btn-lg,全畫面:btn btn-primary btn-lg btn-block
    + 禁用class="btn btn-primary" disabled
+
+![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.19.5.2.png?raw=true)
 6. Bootstrap的圖片
    + 自適應:class="img-fluid"
    + 圓角:class="rounded"
