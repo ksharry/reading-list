@@ -420,21 +420,49 @@ Bootstrap針對網頁中的表格、表單、按鈕與圖片，設計了計多�
 #### 20 Bootsrtap元件
 Bootstrap提供了許多實用又美觀的元件，例如下拉式選單、按鈕、輸入群組、導覽標示、導覽列及其他導覽元件、警告訊息、進度條、清單群組及卡片，讓使用者可以快速加入在頁面上，為網站增添許多功能。
 1. 下拉式選單
+   + class="dropdown-menu"
+   + 標題:h6 class="dropdown-header">Advance</h6
+   + 啟用:class="dropdown-item active"
+   + 反向:class="dropup"
 2. 按鈕群組
+   + 群組按鈕:class="btn-group"
+   + 分離:class="btn btn-default dropdown-toggle dropdown-toggle-split"
+   + 下拉:
 3. 輸入群組
+   + 輸入群組:class="input-group"
+   + 核取按鈕:class="input-group-prepend"
+   + 按鈕附加:button class="btn btn-default" type="button"
+   + 附加下拉:class="dropdown-menu"
+   + 附加分離:同上，階層不同
+   + 多個按鈕:同上，多一個
 4. 導覽標示
+   + class="nav nav-tabs
+   + 填滿框:class="nav nav-pills
+   + 填滿畫面:class="nav nav-tabs nav-fill"
+   + 下拉:class="nav nav-tabs nav-justified"
 5. 導覽列
-6. 其他導覽元件
-7. 超大螢幕效果
+   + 導覽基本:nav class="navbar navbar-expand-lg navbar-dark bg-secondary"
+   + 固定位置:nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary"
+   + 導覽上列:nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-secondary"
+6. 其他導覽元件:
+   + 麵包屑:ol class="breadcrumb">
+   + 分頁導覽:ul class="pagination">
+7. 超大螢幕效果:div class="jumbotron">
 8. 警告訊息及進度條
+   + 警告條:class="alert alert-success"
+   + 進度條:div class="progress
 9. 清單群組
-10. 卡片元件
+   + class="list-group"
+   + a href="#" class="list-group-item list-group-item-action list-group-item-success
+   + button type="button" class="list-group-item d-flex justify-content-between align-items-center"
+10. 卡片元件:class="card"
 
 #### 21 Bootstrap JS元件
 Bootstrap提供了許多功能強大且效果極佳的JavaScript元件，其中包括了可切換內容標籤、互動視窗、提示訊息、彈跳提示訊息、折疊效果、手風琴效果及圖片輪播效果元件，能在最簡單的設定下為網頁加入許多實用的功能。
-21.1 可切換內容標籤元件
-21.2 互動視窗元件
-21.3 提示訊息及彈跳提示訊息
-21.4 折疊效果元件
-21.5 手風琴效果元件
-21.6 圖片輪播效果元件
+1. 可切換內容標籤元件
+   + class="nav nav-tabs"
+2. 互動視窗元件
+3. 提示訊息及彈跳提示訊息
+4. 折疊效果元件
+5. 手風琴效果元件
+6. 圖片輪播效果元件
