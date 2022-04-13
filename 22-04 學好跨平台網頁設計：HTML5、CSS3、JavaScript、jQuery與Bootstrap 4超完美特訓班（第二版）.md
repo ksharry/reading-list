@@ -459,10 +459,9 @@ Bootstrap提供了許多實用又美觀的元件，例如下拉式選單、按�
 
 #### 21 Bootstrap JS元件
 Bootstrap提供了許多功能強大且效果極佳的JavaScript元件，其中包括了可切換內容標籤、互動視窗、提示訊息、彈跳提示訊息、折疊效果、手風琴效果及圖片輪播效果元件，能在最簡單的設定下為網頁加入許多實用的功能。
-1. 可切換內容標籤元件
-   + class="nav nav-tabs"
-2. 互動視窗元件
-3. 提示訊息及彈跳提示訊息
-4. 折疊效果元件
-5. 手風琴效果元件
-6. 圖片輪播效果元件
+1. 可切換內容標籤元件:class="nav nav-tabs"
+2. 互動視窗元件:div class="modal fade" id="myModal">
+3. 提示訊息及彈跳提示訊息:class="btn btn-default" data-toggle="popover" data-trigger="focus" data-placement="right" title="Message" data-content="這是測試訊息!">
+4. 折疊效果元件:class="btn btn-primary" data-toggle="collapse" href="#collapseArea">按鈕一
+5. 手風琴效果元件 class="card"; a data-toggle="collapse" href="#area1"
+6. 圖片輪播效果元件:div id="carouselarea" class="carousel slide" data-ride="carousel"
