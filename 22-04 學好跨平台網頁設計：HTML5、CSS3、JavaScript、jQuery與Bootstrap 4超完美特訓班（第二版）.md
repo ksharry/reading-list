@@ -186,6 +186,7 @@ CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地�
    + 圖片項目:list-style-image: url(like.png)
    + 項目位置:list-style-position: outside
    + 項目快速設定:list-style: square inside;
+![Alt text](https://github.com/ksharry/reading-list.md/blob/main/png/1.7.2.1.png?raw=true)
 3. 超連結的樣式設定
 4. CSS3：文字陰影
    + 文字陰影:text-shadow: 1px 1px 3px
