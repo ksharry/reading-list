@@ -188,6 +188,7 @@ CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地�
    + 項目快速設定:list-style: square inside;
            
 ![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.7.2.1.png?raw=true)
+
 3. 超連結的樣式設定
 4. CSS3：文字陰影
    + 文字陰影:text-shadow: 1px 1px 3px
@@ -236,6 +237,7 @@ CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地�
      + 隱藏:visibility: hidden;
 
 ![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.9.2.1.png?raw=true)
+
 3. float的使用
    + float:float: left;
    + clear: both;
@@ -254,6 +256,7 @@ CSS(Cascading Style Sheets)樣式表在網頁設計中占了十分重要的地�
    + 預設位置:transform-origin: 0% 0%;
 
 ![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.10.1.1.png?raw=true)
+
 2. 轉換效果
    + transition-duration: 1s;transition-property: width;transition-timing-function: ease;transition-delay: 0s;
    + 綜合設定:transition: 1s width ease 0s;
@@ -325,10 +328,12 @@ jQuery可以使用選擇器輕易的選取頁面上的內容，包含了CSS與DO
        $('#sList').before('<>本書重點技術</h1>');
 
 ![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.14.1.1.png?raw=true)
+
 2. jQuery的事件
    + 事件的處裡:<code>$('#btn1').click(function(){;$('#btn1').bind('click',sayOK);if (event.target.id == 'btn2'){</code>
 
 ![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.14.1.2.png?raw=true)
+
 3. jQuery的特效
    + JQuery特效:<code>$('#box').show/hide/toggle/slideDown/fadeOut/fadeOTO(500)</code>
 
@@ -403,6 +408,7 @@ Bootstrap是開發響應式網站的重要框架，以行動優先為設計方�
 ![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.18.3.3.png?raw=true)
 
 ![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.18.3.4.png?raw=true)
+
 4. Bootstrap的文字段落
    + 標題、段落與文字
    + 對齊轉換類別
@@ -422,6 +428,7 @@ Bootstrap針對網頁中的表格、表單、按鈕與圖片，設計了計多�
    + 響應:table-responsive
 
 ![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.19.1.6.png?raw=true)
+
 2. Bootstrap的表單佈局
    + class="form-group"
    + 行內:class="form-inline"
@@ -434,6 +441,7 @@ Bootstrap針對網頁中的表格、表單、按鈕與圖片，設計了計多�
    + 禁用class="btn btn-primary" disabled
 
 ![Alt text](https://github.com/ksharry/reading-list/blob/main/png/1.19.5.2.png?raw=true)
+
 6. Bootstrap的圖片
    + 自適應:class="img-fluid"
    + 圓角:class="rounded"
