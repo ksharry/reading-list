@@ -38,11 +38,30 @@
    + 註釋單行:`//`；多行`/*`
 3. 現代模式，"use strict"
    + 兼容性問題，舊的通常預設不相容
-   + 如要兼容語法`"use strict";'
-   + class和module預設啟用
-4. 變量
-   + 
+   + 如要兼容語法`"use strict";`
+   + class和module預設相容
+4. 變數定義
+   + 區分大小寫
+   + 保留字let、class、return、function
+   + 我們可以使用var、let或 const 聲明變量來存儲數據。
+     + let— 現代的變量聲明方式。
+     + var— 老舊的變量聲明方式。一般情況下，我們不會再使用它。但是，我們會在 老舊的"var"章節介紹 var 和 let 的微妙差別，以防你需要它們。
+     + const— 類似於let，但是變量的值無法被修改。 
+   + 變量應當以一種容易理解變量內部是什麼的方式進行命名。
 5. 數據類型
+   + JavaScript 中有八種基本的數據類型（譯註：前七種為基本數據類型，也稱為原始類型，而 object 為複雜數據類型）。
+      + number用於任何類型的數字：整數或浮點數，在 範圍內的整數。±(253-1)
+      + bigint用於任意長度的整數。
+      + string用於字符串：一個字符串可以包含0 個或多個字符，所以沒有單獨的單字符類型。
+      + boolean用於 true 和false。
+      + null用於未知的值—— 只有一個 null 值的獨立類型。
+      + undefined用於未定義的值—— 只有一個 undefined 值的獨立類型。
+      + symbol用於唯一的標識符。
+      + object用於更複雜的數據結構。
+    + 我們可以通過 typeof 運算符查看存儲在變量中的數據類型。
+      + 通常用作typeof x，但 typeof(x) 也可行。
+      + 以字符串的形式返回類型名稱，例如"string"。
+      + typeof null會返回"object"—— 這是JavaScript 編程語言的一個錯誤，實際上它並不是一個object。
 6. 交互：alert、prompt 和confirm
 7. 類型轉換
 8. 基礎運算符，數學
