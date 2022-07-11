@@ -10,9 +10,19 @@
 ## 第一部分：JavaScript 編程語言
 #### 簡介
 1. JavaScript 簡介
+   + JavaScript 最開始是專門為瀏覽器設計的一門語言，但是現在也被用於很多其他的環境。
+   + JavaScript 作為被應用最廣泛的瀏覽器語言，且與HTML/CSS 完全集成，具有獨特的地位。
+   + 有很多其他的語言可以被“編譯”成JavaScript，這些語言還提供了更多的功能。
+   + JavaScript 是一種“安全的”編程語言。它不提供對內存或CPU 的底層訪問
 2. 手冊與規範
-3. 代碼編輯器
+   + 規範：[ECMA-262](https://tc39.es/ecma262/)
+   + 手冊：[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+3. 代碼編輯器(IDE)
+   + Visual Studio
 4. 開發者控制台
+   + [測試網址BUG](https://zh.javascript.info/article/devtools/bug.html)
+   + 開發者工具允許我們查看錯誤、執行命令、檢查變量等。
+   + 在Windows 系統中，可以通過 F12 開啟開發者工具。Mac 系統下，Chrome 需要使用，Safari 使用（需要提前開啟）。Cmd+Opt+JCmd+Opt+C
 #### JavaScript 基礎知識
 1. Hello, world!
 2. 代碼結構
