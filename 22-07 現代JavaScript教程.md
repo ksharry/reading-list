@@ -35,10 +35,13 @@
    + 外部腳本`<script src="/path/to/script.js"></script>`
 2. 代碼結構
    + 分號:最好不要省略分號，尤其對新手來說
-   + 註釋單行:`//`，多行`/*`
-   + 
+   + 註釋單行:`//`；多行`/*`
 3. 現代模式，"use strict"
+   + 兼容性問題，舊的通常預設不相容
+   + 如要兼容語法`"use strict";'
+   + class和module預設啟用
 4. 變量
+   + 
 5. 數據類型
 6. 交互：alert、prompt 和confirm
 7. 類型轉換
