@@ -7,8 +7,7 @@
 ## 僅個人筆記
 ## [網路課程](https://zh.javascript.info/)
 
-## 第一部分
-### JavaScript 編程語言
+## 第一部分：JavaScript 編程語言
 #### 簡介
 1. JavaScript 簡介
 2. 手冊與規範
@@ -123,4 +122,111 @@
 4. Reference Type
 5. BigInt
 
-### 瀏覽器：文檔，事件，接口
+## 第二部分：瀏覽器：文檔，事件，接口
+#### Document
+1. 瀏覽器環境，規格
+2. DOM 樹
+3. 遍歷DOM
+4. 搜索：getElement*，querySelector*
+5. 節點屬性：type，tag 和content
+6. 特性和屬性（Attributes and properties）
+7. 修改文檔（document）
+8. 樣式和類
+9. 元素大小和滾動
+10. Window 大小和滾動
+11. 坐標
+
+#### 事件簡介
+1. 瀏覽器事件簡介
+2. 冒泡和捕獲
+3. 事件委託
+4. 瀏覽器默認行為
+5. 創建自定義事件
+
+#### UI 事件
+1. 鼠標事件
+2. 移動鼠標：mouseover/out，mouseenter/leave
+3. 鼠標拖放事件
+4. 指針事件
+5. 鍵盤：keydown 和keyup
+6. 滾動
+
+#### 表單，控件
+1. 表單屬性和方法
+2. 聚焦：focus/blur
+3. 事件：change，input，cut，copy，paste
+4. 表單：事件和方法提交
+
+#### 加載文檔和其他資源
+1. 頁面生命週期：DOMContentLoaded，load，beforeunload，unload
+2. 腳本：async，defer
+3. 資源加載：onload，onerror
+
+#### 雜項
+1. DOM 變動觀察器（Mutation observer）
+2. 選擇（Selection）和範圍（Range）
+3. 事件循環：微任務和宏任務
+
+
+## 第三部分：其他文章
+#### Frame 和window
+1. 彈窗和window 的方法
+2. 跨窗口通信
+3. 點擊劫持攻擊
+
+#### 二進制數據，文件
+1. ArrayBuffer，二進制數組
+2. TextDecoder 和TextEncoder
+3. Blob
+4. File 和FileReader
+
+#### 網絡請求
+1. Fetch
+2. FormData
+3. Fetch：下載進度
+4. Fetch：中止（Abort）
+5. Fetch：跨源請求
+6. Fetch API
+7. URL 對象
+8. XMLHttpRequest
+9. 可恢復的文件上傳
+10. 長輪詢（Long polling）
+11. WebSocket
+12. Server Sent Events
+
+#### 在瀏覽器中存儲數據
+1. Cookie，document.cookie
+2. LocalStorage，sessionStorage
+3. IndexedDB
+
+#### 動畫
+1. 貝塞爾曲線
+2. CSS 動畫
+3. JavaScript 動畫
+4. Web components
+5. 從星球軌道的高度講起
+6. Custom elements
+7. 影子DOM（Shadow DOM）
+8. 模板元素
+9. Shadow DOM 插槽，組成
+10. 給Shadow DOM 添加樣式
+11. Shadow DOM 和事件（events）
+
+#### 正則表達式
+1. 模式（Patterns）和修飾符（flags）
+2. 字符類
+3. Unicode：修飾符“u” 和class \p{...}
+4. 錨點（Anchors)：字符串開始^ 和末尾 $
+5. Flag "m" — 多行模式
+6. 詞邊界：\b
+7. 轉義，特殊字符
+8. 集合和範圍[...]
+9. 量詞`+,*,?` 和`{n}`
+10. 貪婪量詞和惰性量詞
+11. 捕獲組
+12. 模式中的反向引用：\N 和\k<name>
+13. 選擇（OR）|
+14. 前瞻斷言與後瞻斷言
+15. 災難性回溯
+16. 粘性標誌"y"，在位置處搜索
+17. 正則表達式（RegExp）和字符串（String）的方法
