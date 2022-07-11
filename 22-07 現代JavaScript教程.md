@@ -17,9 +17,9 @@
 2. 手冊與規範
    + 規範：[ECMA-262](https://tc39.es/ecma262/)
    + 手冊：[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-3. 代碼編輯器(IDE)
+3. 程式編輯器(IDE)
    + Visual Studio
-4. 開發者控制台
+4. 開發者工具
    + [測試網址BUG](https://zh.javascript.info/article/devtools/bug.html)
    + 開發者工具允許我們查看錯誤、執行命令、檢查變量等。
    + 在Windows 系統中，可以通過 F12 開啟開發者工具
@@ -33,7 +33,7 @@
      ```
    + 現代的標記（markup）`<script type="text/javascript">`
    + 外部腳本`<script src="/path/to/script.js"></script>`
-2. 代碼結構
+2. 程式結構
    + 分號:最好不要省略分號，尤其對新手來說
    + 註釋單行:`//`；多行`/*`
 3. 現代模式，"use strict"
@@ -48,14 +48,18 @@
      + var— 老舊的變量聲明方式。一般情況下，我們不會再使用它。但是，我們會在 老舊的"var"章節介紹 var 和 let 的微妙差別，以防你需要它們。
      + const— 類似於let，但是變量的值無法被修改。 
    + 變量應當以一種容易理解變量內部是什麼的方式進行命名。
-5. 數據類型
-   + JavaScript 中有八種基本的數據類型（譯註：前七種為基本數據類型，也稱為原始類型，而 object 為複雜數據類型）。
-      + number用於任何類型的數字：整數或浮點數，在 範圍內的整數。±(253-1)
-      + bigint用於任意長度的整數。
-      + string用於字符串：一個字符串可以包含0 個或多個字符，所以沒有單獨的單字符類型。
+5. 資料類型
+   + JavaScript 中有八種基本的資料類型（譯註：前七種為基本資料類型，也稱為原始類型，而 object 為複雜資料類型）。
+      + number用於任何類型的數字：整數或浮點數，在 範圍內的整數。±(2的53次方-1)
+        + Infinity-無限大
+        + NaN-型態錯誤
+      + bigint用於任意長度的整數。`const bigInt = 12345n;`
+      + string用於字符串：一個字符串可以包含0 個或多個字符。
+        + 單雙引號
+        + 反引號:${…}，有變數時使用
       + boolean用於 true 和false。
-      + null用於未知的值—— 只有一個 null 值的獨立類型。
-      + undefined用於未定義的值—— 只有一個 undefined 值的獨立類型。
+      + null用於未知的值
+      + undefined用於未定義的值
       + symbol用於唯一的標識符。
       + object用於更複雜的數據結構。
     + 我們可以通過 typeof 運算符查看存儲在變量中的數據類型。
