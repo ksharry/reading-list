@@ -25,6 +25,13 @@
    + 在Windows 系統中，可以通過 F12 開啟開發者工具
 #### JavaScript 基礎知識
 1. Hello, world!
+   + script標籤
+     '''js
+      <script>
+        alert('Hello, world!');
+      </script>
+     '''
+   + 
 2. 代碼結構
 3. 現代模式，"use strict"
 4. 變量
