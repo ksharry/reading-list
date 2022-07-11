@@ -31,7 +31,10 @@
        alert('Hello, world!');
      </script>
      ```
-   + 
+   + 現代的標記（markup）
+     `<script type="text/javascript">`
+   + 外部腳本
+     `<script src="/path/to/script.js"></script>`
 2. 代碼結構
 3. 現代模式，"use strict"
 4. 變量
