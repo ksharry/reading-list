@@ -66,7 +66,18 @@
       + 通常用作typeof x，但 typeof(x) 也可行。
       + 以字符串的形式返回類型名稱，例如"string"。
       + typeof null會返回"object"—— 這是JavaScript 編程語言的一個錯誤，實際上它並不是一個object。
-6. 交互：alert、prompt 和confirm
+6. 互動：
+   + alert出現警示窗
+   + prompt 
+   ```
+   let age = prompt('How old are you?', 100);
+   alert(`You are ${age} years old!`); // You are 100 years old!
+   ```
+   + confirm
+   ‵‵‵
+   let isBoss = confirm("Are you the boss?");
+   alert( isBoss ); // 如果“确定”按钮被按下，则显示 true
+   ‵‵‵
 7. 類型轉換
 8. 基礎運算符，數學
 9. 值的比較
