@@ -31,11 +31,12 @@
        alert('Hello, world!');
      </script>
      ```
-   + 現代的標記（markup）
-     `<script type="text/javascript">`
-   + 外部腳本
-     `<script src="/path/to/script.js"></script>`
+   + 現代的標記（markup）`<script type="text/javascript">`
+   + 外部腳本`<script src="/path/to/script.js"></script>`
 2. 代碼結構
+   + 分號:最好不要省略分號，尤其對新手來說
+   + 註釋單行:`//`，多行`/*`
+   + 
 3. 現代模式，"use strict"
 4. 變量
 5. 數據類型
