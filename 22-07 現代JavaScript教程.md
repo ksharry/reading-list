@@ -22,7 +22,7 @@
 4. 開發者控制台
    + [測試網址BUG](https://zh.javascript.info/article/devtools/bug.html)
    + 開發者工具允許我們查看錯誤、執行命令、檢查變量等。
-   + 在Windows 系統中，可以通過 F12 開啟開發者工具。Mac 系統下，Chrome 需要使用，Safari 使用（需要提前開啟）。Cmd+Opt+JCmd+Opt+C
+   + 在Windows 系統中，可以通過 F12 開啟開發者工具
 #### JavaScript 基礎知識
 1. Hello, world!
 2. 代碼結構
