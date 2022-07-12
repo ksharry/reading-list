@@ -97,7 +97,7 @@
    + 當對不同類型的值進行比較時，它們會先被轉化為數字（不包括嚴格相等檢查）再進行比較。
    + 在非嚴格相等 == 下，null和 undefined 相等且各自不等於任何其他的值。
    + 在使用 > 或 < 進行比較時，需要注意變量可能為 null/undefined 的情況。比較好的方法是單獨檢查變量是否等於null/undefined。
-10. 條件分支：if 和'?'
+10. 條件判斷：if 和'?'
     + if與elseif
     ```
     if (year < 2015) {
@@ -109,11 +109,65 @@
     }
     ```
     + ?使用方式`let result = condition ? value1 : value2;`
-    + 
 11. 邏輯運算符
+    + ||（或）`if (hour < 10 || hour > 18)`，判斷第一個為False就發生
+    + &&（與）`alert( 1 && 2 && 3 ); // 3`
+    + !（非）`alert( !true ); // false`
 12. 空值合併運算符'??'
+    + 空值合併運算符 ?? 提供了一種從列表中選擇第一個“已定義的”值的簡便方式。
+    + 它被用於為變量分配默認值：
+    ```
+    // 當 height=null 或 undefined時，將height= 100
+    height = height ?? 100;
+    ```
+    + ??運算符的優先級非常低，僅略高於 ? 和=，因此在表達式中使用它時請考慮添加括號。如果沒有明確添加括號，不能將其與 || 或 && 一起使用。
 13. 循環：while 和for
+    + while
+    ```
+    let i = 3;
+    while (i) { // 当 i 变成 0 时，条件为假，循环终止
+      alert( i );
+      i--;
+    }
+    ```
+    + do..while
+    ```
+    let i = 0;
+    do {
+      alert( i );
+      i++;
+    } while (i < 3);
+    ```
+    + for 
+    ```
+    for (let i = 0; i < 3; i++) { // 结果为 0、1、2
+      alert(i);
+    }
+    ```
+    + 跳出循環`break`
+    + 繼續`continue`
+    + break/continue支持循環前的標籤。標籤是 break/continue 跳出嵌套循環以轉到外部的唯一方法
 14. switch 語句
+    + 例子
+    ```
+    let a = 2 + 2;
+
+    switch (a) {
+      case 3:
+        alert( 'Too small' );
+        break;
+      case 4:
+        alert( 'Exactly!' );
+        break;
+      case 5:
+        alert( 'Too big' );
+        break;
+      default:
+        alert( "I don't know such values" );
+    }
+    ```
+    + break使用
+    + 類型的定義
 15. 函數
 16. 函數表達式
 17. 箭頭函數，基礎知識
