@@ -98,6 +98,18 @@
    + 在非嚴格相等 == 下，null和 undefined 相等且各自不等於任何其他的值。
    + 在使用 > 或 < 進行比較時，需要注意變量可能為 null/undefined 的情況。比較好的方法是單獨檢查變量是否等於null/undefined。
 10. 條件分支：if 和'?'
+    + if與elseif
+    ```
+    if (year < 2015) {
+      alert( 'Too early...' );
+    } else if (year > 2015) {
+      alert( 'Too late' );
+    } else {
+      alert( 'Exactly!' );
+    }
+    ```
+    + ?使用方式`let result = condition ? value1 : value2;`
+    + 
 11. 邏輯運算符
 12. 空值合併運算符'??'
 13. 循環：while 和for
