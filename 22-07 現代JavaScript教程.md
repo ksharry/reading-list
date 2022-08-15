@@ -215,10 +215,40 @@
 
 #### 代碼質量
 1. 在瀏覽器中調試
+   + [測試頁面](https://zh.javascript.info/article/debugging-chrome/debugging/index.html)
+   + 資源（Sources）”面板
+     + 文件導航（File Navigator）區域列出了HTML、JavaScript、CSS 和包括圖片在內的其他依附於此頁面的文件。Chrome 擴展程序也會顯示在這。
+     + 代碼編輯（Code Editor）區域展示源碼。
+     + JavaScript 調試（JavaScript Debugging）區域是用於調試的，我們很快就會來探索它。
+   + 控制台（Console）
+   + 斷點（Breakpoints）
+   + “debugger” 命令
+   + 暫停並查看
+   + 跟踪執行
+     + F8 執行
+     + F9 進到明細
+     + F10 下一步
+   + 日誌記錄
 2. 代碼風格
+   + 語法
+   + 花括號
+   + 行的長度
+   + 縮進
+   + 分號
+   + 函數位置
 3. 註釋
+   + 配方：分解函數，如果函式裡面有函式，要分出來寫
+   + 配方：創建函數，
+   + 好的註釋
 4. 忍者代碼
+   + 簡潔是智慧的靈魂
+   + 一個字母的變量
+   + 使用縮寫
+   + Soar high，抽象化。
+   + 重用名字
 5. 使用Mocha 進行自動化測試
+   + 行為驅動開發（BDD）
+   + 開發“pow”：規範
 6. Polyfill 和轉譯器
 #### Object（對象）：基礎知識
 1. 對象
