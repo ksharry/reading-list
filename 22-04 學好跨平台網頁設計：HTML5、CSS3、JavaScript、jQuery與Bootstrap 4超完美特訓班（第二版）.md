@@ -1,6 +1,6 @@
 <table>
     <tr>
-        <td>學好跨平台網頁設計：HTML5、CSS3、JavaScript、jQuery與Bootstrap 4超完美特訓班（第二版）</td>
+        <td>學好跨平台網頁設計</td>
     </tr>
 </table>
 
