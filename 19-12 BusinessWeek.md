@@ -4,7 +4,18 @@
     </tr>
 </table>
 
-1. 
+1. 刀口上的小事
+2. 後勤單位的心跳慢半拍
+3. 40人賠錢，20人賺錢
+4. 一組帳號走遍網路
+5. 普發六千與奇異的案例
+6. AI
+   + Lensa 自拍APP
+   + DALL-E2 藝術家
+   + TextCortex 文書工作
+   + CharacterAI 聊天
+   + Beautiful.ai PPT製作
+7. 
 
 
 <table>
