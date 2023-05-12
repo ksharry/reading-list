@@ -1,11 +1,29 @@
 23-05
-1. 金字塔原理-[網址](https://www.youtube.com/watch?v=u_8RTop8O_Q)
+1. 麥肯錫管理顧問在做什麼-[網址](https://www.youtube.com/watch?v=l-OxhtFG2tU&list=PLvC10rAwpLzskly_CFnUZhj6Cuv_knVyx)
+   + 面試的內容-[官網](https://www.mckinsey.com/careers/interviewing)
+     + Personal Impact
+     + Enterpreneurial Drive
+     + Inclusive Leadership
+     + Problem Solving
+     + Courageous Change
+   + GPA 3.2 
+   + GMAT 
+   + 面試的流程
+     + 5-6的流程
+     + Case Study
+     + 準備自己的故事
+   + 面試的技巧
+     + 推薦的書:Case In Point
+     + 很好的聆聽
+     + 追求自然的互動
+     + 溝通的過程
+2. 金字塔原理-[網址](https://www.youtube.com/watch?v=u_8RTop8O_Q)
    + 由下而上
-   + 由上而下
-2. MECE法則-[網址](https://www.youtube.com/watch?v=kE7Hu_kHApY)
-   + 分解與區分任務
-     + 獨立性
-     + 完整性
+   + 由上而下  
+   +MECE法則-[網址](https://www.youtube.com/watch?v=kE7Hu_kHApY)
+     + 分解與區分任務
+       + 獨立性
+       + 完整性
 3. 麥肯錫精準提問術-[網址](https://www.youtube.com/watch?v=Q45noaxWzws)
 4. 麥肯錫經驗-[網址](https://ioh.tw/talks/%E9%BA%A5%E8%82%AF%E9%8C%AB-mckinsey-company-%E9%99%B3%E5%BD%A5%E5%BB%B7-bradley-chen-ov-work-us)
    + 影響力
